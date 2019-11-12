@@ -1,0 +1,226 @@
+h1 {
+   margin-top: 76px;
+    margin-left: 45%;
+    height: 15%;
+    width: 8%;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-left: 20px;
+    border: 5px solid;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font font-size: 20px;
+    animation-name: appear;
+    animation-duration: 2s;
+
+
+  }
+
+  h2{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+  }
+
+
+  html{
+    margin-top: -15px;
+    background-image: url("https://www.cammconstruction.com/wp-content/uploads/2018/07/modern-office-design.jpg");
+    position: relative;
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover
+  }
+
+  #more{
+    /* padding-top:100px ; */
+    padding-bottom:50px ;
+    padding-top: 10px;
+    margin-right: 100px;
+    margin-left: 100px;
+    text-align: center;
+    font-size: 30px;
+    display: grid;
+    background-image: url("https://images-na.ssl-images-amazon.com/images/I/410GWriJ-mL._AC_SY400_.jpg");
+    /* background-repeat: no-repeat; */
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+
+  #distributor {
+    color: white;
+    font-family: 'Crimson Text', serif;
+    text-align: center;
+    font-size: 70px;
+
+
+
+  }
+
+  #dis2{
+    font-family: 'Crimson Text', serif;
+    text-align: center;
+    font-size: 70px;
+    padding-top: 10px;
+
+
+  }
+
+   body{
+    background-image: url("http://pm1.narvii.com/6436/e733c4bd0e989649e85b166a7a807e94b0e05055_00.jpg");
+    /* animation-name:bobble;
+    animation-duration: 100s;
+    animation-delay:10s; */
+    height: 125vh;
+    margin: -8px;
+
+
+  }
+
+  #drip {
+  font-family: 'Rye', cursive;
+  text-align: center;
+  float: left;
+  width: 100px;
+  height:100px;
+  background-color: #D3D3D3;
+  }
+
+  #explain {
+    font-family: 'Rye', cursive;
+    padding-top: 10px;
+    text-align: center;
+    float: right;
+    width: 100px;
+    height:100px;
+    background-color: #D3D3D3;
+
+  }
+
+  li{
+    display: inline;
+    color: coral;
+   margin: 200px;
+   font-size: 20px;
+   font-family: 'Crimson Text', serif;
+
+  }
+
+  #welcome{
+    text-align: center;
+    font-family: 'Wallpoet', cursive;
+    font-size: 50px;
+
+  }
+
+  #freinds{
+    text-align: center;
+    font-family: fantasy;
+    font-size: 50px;
+  }
+
+  .gallery{
+   display: grid;
+   grid-template: repeat(2,100px) / repeat(4,100px);
+   grid-gap: 300px;
+   margin-top: 100px;
+   margin-left: 150px;
+ }
+ .gallery div{
+   height: 35px;
+   width: 30px;
+   margin-right: 100px;
+   margin-left: 50px;
+   height:300px;
+   margin: 30px;
+   width:300px;
+  margin-top: 100px;
+ }
+ .pics{
+   border-style: solid;
+   border-radius: 2px;
+   margin-top: 100px;
+   height:300px;
+   margin: 30px;
+   width:300px;
+ }
+/*
+   .gallery{
+    display: grid;
+    margin: 30px;
+    padding-top:500px;
+    color: blanchedalmond;
+    background-color:black;
+    text-align:center;
+    font-size: 20px;
+    margin-top:300px;
+    grid-template: repeat(4,50px) / repeat(2,50px)
+    grid-gap: 15px;
+
+  } */
+
+  ul{
+    color: white;
+  }
+
+  nav{color: burlywood;
+    background-image: url("https://cdn.shopify.com/s/files/1/0879/0542/products/PC1063.progressive.jpg?v=1514017653");
+    /* background-image: url("https://media1.giphy.com/media/ewx4bjThJZkI0/200.webp?cid=790b7611a33ab7a06d088ba4156550edfc8f3a1a31957103&rid=200.webp"); */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+  }
+
+    nav a:hover {
+
+      background-color: #ddd;
+
+
+
+  }
+
+  footer{
+    margin:300px;
+    margin-top: 500px;
+    padding-top:100px;
+    color: blanchedalmond;
+    background-color:white;
+    text-align:center;
+    font-size: 40px;
+    font-family: 'Crimson Text', serif;
+  }
+
+  #myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+
+@keyframes appear{
+  from{ opacity: 0;}
+  to{opacity: 1;}
+}
+
+@keyframes bobble{
+  from{margin-bottom: 10000px;}
+  to{margin-top: 10000px;}
+
+
+}
